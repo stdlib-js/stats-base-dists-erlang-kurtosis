@@ -33,7 +33,7 @@ The [excess kurtosis][kurtosis] for an [Erlang][erlang-distribution] random vari
 <!-- <equation class="equation" label="eq:erlang_kurtosis" align="center" raw="\operatorname{Kurt}\left( X \right) = \frac{6}{k}" alt="Excess kurtosis for an Erlang distribution."> -->
 
 ```math
-\operatorname{Kurt}\left( X \right) = \frac{6}{k}
+\mathop{\mathrm{Kurt}}\left( X \right) = \frac{6}{k}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\operatorname{Kurt}\left( X \right) = \frac{6}{k}" data-equation="eq:erlang_kurtosis">
@@ -49,38 +49,30 @@ The [excess kurtosis][kurtosis] for an [Erlang][erlang-distribution] random vari
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-erlang-kurtosis
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-kurtosis = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-kurtosis@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var kurtosis = require( 'path/to/vendor/umd/stats-base-dists-erlang-kurtosis/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-kurtosis@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.kurtosis;
-})();
-</script>
+var kurtosis = require( '@stdlib/stats-base-dists-erlang-kurtosis' );
 ```
 
 #### kurtosis( k, lambda )
@@ -148,16 +140,11 @@ v = kurtosis( 2, -1.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-kurtosis@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var EPS = require( '@stdlib/constants-float64-eps' );
+var kurtosis = require( '@stdlib/stats-base-dists-erlang-kurtosis' );
 
 var lambda;
 var k;
@@ -170,11 +157,6 @@ for ( i = 0; i < 10; i++ ) {
     v = kurtosis( k, lambda );
     console.log( 'k: %d, λ: %d, Kurt(X;k,λ): %d', k.toFixed( 4 ), lambda.toFixed( 4 ), v.toFixed( 4 ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
