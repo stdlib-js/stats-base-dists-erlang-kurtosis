@@ -67,7 +67,7 @@ The [excess kurtosis][kurtosis] for an [Erlang][erlang-distribution] random vari
 ## Usage
 
 ```javascript
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-kurtosis@deno/mod.js';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-kurtosis@v0.2.1-deno/mod.js';
 ```
 
 #### kurtosis( k, lambda )
@@ -139,7 +139,7 @@ v = kurtosis( 2, -1.0 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-kurtosis@deno/mod.js';
+import kurtosis from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang-kurtosis@v0.2.1-deno/mod.js';
 
 var lambda;
 var k;
