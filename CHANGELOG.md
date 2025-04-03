@@ -34,6 +34,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`893dc6f`](https://github.com/stdlib-js/stdlib/commit/893dc6fcf59f4944b6c02cc54481dc5435d99117) - **bench:** fix value ranges _(by Athan Reines)_
+-   [`192e98f`](https://github.com/stdlib-js/stdlib/commit/192e98fdd9ae68ff9a932b02c174186472f845ce) - **chore:** clean-up _(by Athan Reines)_
 -   [`3e69370`](https://github.com/stdlib-js/stdlib/commit/3e6937027bd58102438539024cc70ab0783b1641) - **feat:** add C implementation for `stats/base/dists/erlang/kurtosis` [(#4289)](https://github.com/stdlib-js/stdlib/pull/4289) _(by Neeraj Pathak, stdlib-bot)_
 -   [`611fed3`](https://github.com/stdlib-js/stdlib/commit/611fed3fdb1d06516f0ad5fc9724356307810d1c) - **bench:** refactor random number generation in `stats/base/dists/erlang` [(#4916)](https://github.com/stdlib-js/stdlib/pull/4916) _(by Karan Anand)_
 
@@ -47,8 +49,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
 -   Neeraj Pathak
 
