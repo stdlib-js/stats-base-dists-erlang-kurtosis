@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-08)
 
 <section class="features">
 
@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3570](https://github.com/stdlib-js/stdlib/issues/3570)
+[#3570](https://github.com/stdlib-js/stdlib/issues/3570), [#7183](https://github.com/stdlib-js/stdlib/issues/7183)
 
 </section>
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`c172409`](https://github.com/stdlib-js/stdlib/commit/c172409fd9157a89810c44307c3fa855bb3e6686) - **chore:** address commit comments [(#7262)](https://github.com/stdlib-js/stdlib/pull/7262) _(by Deepak Singh)_
 -   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh)_
 -   [`893dc6f`](https://github.com/stdlib-js/stdlib/commit/893dc6fcf59f4944b6c02cc54481dc5435d99117) - **bench:** fix value ranges _(by Athan Reines)_
 -   [`192e98f`](https://github.com/stdlib-js/stdlib/commit/192e98fdd9ae68ff9a932b02c174186472f845ce) - **chore:** clean-up _(by Athan Reines)_
@@ -50,9 +51,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Deepak Singh
 -   Harsh
 -   Karan Anand
 -   Neeraj Pathak
