@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-06-08)
+## 0.3.0 (2026-01-28)
 
 <section class="features">
 
@@ -34,8 +34,10 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`c172409`](https://github.com/stdlib-js/stdlib/commit/c172409fd9157a89810c44307c3fa855bb3e6686) - **chore:** address commit comments [(#7262)](https://github.com/stdlib-js/stdlib/pull/7262) _(by Deepak Singh)_
--   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh)_
+-   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh Yadav)_
 -   [`893dc6f`](https://github.com/stdlib-js/stdlib/commit/893dc6fcf59f4944b6c02cc54481dc5435d99117) - **bench:** fix value ranges _(by Athan Reines)_
 -   [`192e98f`](https://github.com/stdlib-js/stdlib/commit/192e98fdd9ae68ff9a932b02c174186472f845ce) - **chore:** clean-up _(by Athan Reines)_
 -   [`3e69370`](https://github.com/stdlib-js/stdlib/commit/3e6937027bd58102438539024cc70ab0783b1641) - **feat:** add C implementation for `stats/base/dists/erlang/kurtosis` [(#4289)](https://github.com/stdlib-js/stdlib/pull/4289) _(by Neeraj Pathak, stdlib-bot)_
@@ -51,13 +53,14 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Deepak Singh
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Neeraj Pathak
+-   Philipp Burckhardt
 
 </section>
 
