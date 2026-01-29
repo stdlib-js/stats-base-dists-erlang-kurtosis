@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-01-29)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6860622`](https://github.com/stdlib-js/stdlib/commit/686062223abc7a79a5ae7f7fcc21fa93e943a101) - **bench:** refactor to use string interpolation in `stats/base/dists/erlang` [(#9941)](https://github.com/stdlib-js/stdlib/pull/9941) _(by Bhargav Dabhade)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Bhargav Dabhade
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2026-01-28)
