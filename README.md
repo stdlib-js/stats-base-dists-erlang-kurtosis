@@ -175,6 +175,8 @@ logEachMap( 'k: %d, λ: %0.4f, Kurt(X;k,λ): %0.4f', k, lambda, kurtosis );
 
 <!-- C interface documentation. -->
 
+* * *
+
 <section class="c">
 
 ## C APIs
